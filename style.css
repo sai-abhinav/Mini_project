@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #2f2f3b;
+  font-size: 40px;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #4b4b4b;
+}
