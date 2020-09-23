@@ -40,17 +40,23 @@ h1, h2, h3, h4, h5, h6 {
 .btn:hover {background: #eee;}
 .info {color: dodgerblue;}
 </style>
+<!--Header-->
 <body>
-
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="https://www.fbi.gov/image-repository/covid-19.jpeg/@@images/image/large" alt="Hamburger Catering" width="1600" height="800">
+    <div class="w3-display-left  w3-padding-large w3-opacity">
+      <h1 class="w3-xxlarge w3-text-grey">COVID-19 ANALYSIS</h1>
+    </div>
+  </header>
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-light-green w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button ">COVID-19 ANALYSIS</a>
+  <div class="w3-bar w3-light-green w3-padding w3-card" style="letter-spacing:4px;" >
+    <a href="#home" class="w3-bar-item w3-button">COVID-19 ANALYSIS</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-hover-text-blue w3-button">Cases and Deaths</a>
-      <a href="#menu" class="w3-bar-item w3-hover-text-blue  w3-button">Relations</a>
-      <a href="https://covid19.who.int/" class="w3-bar-item w3-hover-text-blue  w3-button" target="_blank">WHO Page</a>
+      <a href="#about" class="w3-bar-item w3-hover-text-green w3-button">Cases and Deaths</a>
+      <a href="#menu" class="w3-bar-item w3-hover-text-green  w3-button">Relations</a>
+      <a href="https://covid19.who.int/" class="w3-bar-item w3-hover-text-green  w3-button" target="_blank">WHO Page</a>
     </div>
   </div>
 </div>
@@ -59,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
+    <h1 class="w3-center">Confirmed Cases</h1><br>
         <div class="w3-col m6 w3-padding-large w3-hide-small">
         <!DOCTYPE html>
         <html lang="en">
@@ -115,7 +122,6 @@ h1, h2, h3, h4, h5, h6 {
         </html>
         </div>
         <div class="w3-container m6 w3-padding-large">
-      <h1 class="w3-center">Confirmed Cases</h1><br>
       <p class="w3-large">Above graph gives us a outline of total number of <span class="w3-tag w3-light-grey">confirmed COVID-19 cases</span> till now around the world in each country.</p>
     </div>
     <div class="dropdown">
@@ -125,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
         </div>
         </div>
         <hr>
+        <h1 class="w3-center">Confirmed Deaths</h1><br>
         <div class="w3-col m6 w3-padding-large w3-hide-small">
             <!DOCTYPE html>
             <html lang="en">
@@ -181,7 +188,6 @@ h1, h2, h3, h4, h5, h6 {
             </html>
         </div>
         <div class="w3-container m6 w3-padding-large">
-        <h1 class="w3-center">Confirmed Deaths</h1><br>
         <p class="w3-large">Above graph gives us a outline of total number of <span class="w3-tag w3-light-grey">confirmed COVID-19 deaths</span> till now around the world in each country.</p>
         </div>
         <div class="dropdown">
